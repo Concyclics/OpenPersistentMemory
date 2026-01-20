@@ -71,8 +71,7 @@ Python 3.9+ recommended.
 Install dependencies:
 
 ```bash
-pip install fastapi uvicorn pydantic openai faiss-cpu numpy
-pip install streamlit requests
+pip install -r requirements.txt
 ```
 
 > On some platforms you may prefer `conda install -c pytorch faiss-cpu`.
