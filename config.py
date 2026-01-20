@@ -143,7 +143,7 @@ class UIParamDefaults:
 # =========================================================
 UI_TEXT = {
     "EN": {
-        "app_title": "💬 Memory Chatbot",
+        "app_title": "💬 Persistent Memory Chatbot",
         "sidebar": {
             "language": "Language",
 
@@ -210,7 +210,7 @@ UI_TEXT = {
     },
 
     "ZH": {
-        "app_title": "💬 记忆聊天机器人",
+        "app_title": "💬 可持久化记忆对话机器人",
         "sidebar": {
             "language": "语言",
 
