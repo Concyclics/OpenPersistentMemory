@@ -239,3 +239,7 @@ All UI strings live in `UI_TEXT` in `config.py`. Add a new language by adding a 
 
 ## License
 
+This project is licensed under the MIT License.  
+See the [LICENSE](LICENSE) file for details.
+
+
