@@ -42,8 +42,7 @@ storage/                # Created at runtime
 
 ### Storage Layout (created automatically)
 
-```
-
+```bash
 storage/
 users/
 <user_id_sanitized>/
@@ -52,13 +51,13 @@ meta.jsonl
 state.json
 conversations/
 <conv_id>.jsonl
-
-````
+```
 
 - `conversations/<conv_id>.jsonl` stores the **full conversation sequentially**, one record per turn:
-  ```json
+
+```json
   {"turn_id": 12, "ts": 1700000000.0, "user": "...", "assistant": "..."}
-````
+```
 
 * `faiss.index` + `meta.jsonl` store **persistent memory** (summaries + raw messages) for retrieval.
 
