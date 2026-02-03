@@ -20,8 +20,8 @@ class APIConfig:
     """
     API_KEY: str = os.getenv("OPENAI_API_KEY", "EMPTY")
 
-    LLM_BASE_URL: str = os.getenv("LLM_BASE_URL", "http://localhost:8000/v1")
-    EMB_BASE_URL: str = os.getenv("EMB_BASE_URL", "http://localhost:8002/v1")
+    LLM_BASE_URL: str = os.getenv("LLM_BASE_URL", "http://localhost:8002/v1")
+    EMB_BASE_URL: str = os.getenv("EMB_BASE_URL", "http://localhost:8001/v1")
 
     LLM_MODEL: str = os.getenv("LLM_MODEL", "Qwen/Qwen3-4B-Instruct-2507-FP8")
     EMB_MODEL: str = os.getenv("EMB_MODEL", "Qwen/Qwen3-Embedding-0.6B")
